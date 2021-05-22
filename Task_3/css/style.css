@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    border: 1px solid black;
+}
+
+@media (min-width: 992px) {
+    .main{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .content{
+        width: 50%;
+    }
+    .list{
+        width: 20%;
+    }
+    .advertising{
+        width: 20%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width:990px) {
+    .main{
+        display: flex;
+
+    }
+    .content{
+        width: 100%;
+    }
+    .list{
+        width: 25%;
+    }
+    .advertising{
+        width: 25%;
+    }
+
+}
